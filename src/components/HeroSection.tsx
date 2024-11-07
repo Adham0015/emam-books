@@ -11,7 +11,7 @@ import Svg7 from "./Svg7";
 
 function HeroSection() {
   return (
-    <div className="bg-[#1D5BFC]">
+    <div className="bg-[#1D5BFC] max-w-screen-3xl">
       {/* Mobile layout */}
       <div className="md:hidden flex flex-col w-full max-w-xs mx-auto px-4">
         <div className="flex flex-col items-center gap-3 pt-5 text-center">
@@ -39,7 +39,7 @@ function HeroSection() {
 
       {/* Larger screen layout */}
       <div className="hidden md:flex items-center justify-between gap-8 px-8">
-        <div className="flex flex-col gap-5 pb-20 ml-32">
+        <div className="flex flex-col gap-5 pb-20 ml-24">
           <h3 className="font-DynaPuff font-semibold tracking-wide text-[#FBC820] text-lg">
             We Handle It All!
           </h3>
@@ -57,7 +57,7 @@ function HeroSection() {
             alt="Book Fair"
             width={600}
             height={500}
-            className="w-full max-w-[500px] lg:-mb-5 xl:-mb-8"
+            className="w-full max-w-[500px] lg:-mb-5 xl:-mb-12"
           />
           <div className="absolute bottom-64 -right-2">
             <Svg2 />

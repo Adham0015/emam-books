@@ -3,13 +3,15 @@ import React from "react";
 
 function OurBook() {
   return (
-    <div className="max-h-[731px] py-8 px-8">
+    <div className="max-h-[731px] py-8 px-8 mb-8">
       {/* Top Dashed Border */}
       <div className="border-[2px] border-[#FBC820] border-dashed w-full h-0 mb-8" />
 
       <div className="flex flex-col md:flex-row items-center gap-8">
         {/* Text Section */}
         <div className="flex flex-col gap-3 max-w-[622px] mx-auto md:mx-0 md:w-1/2 md:text-left lg:ml-24 text-center">
+          <Image src="/rocket.png" alt="" width={100} height={100} />
+
           <h1 className="font-semibold text-4xl md:text-5xl font-DynaPuff text-[#1D5BFC]">
             Our Book fairs!
           </h1>

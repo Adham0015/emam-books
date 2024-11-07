@@ -45,14 +45,14 @@ function Sign() {
         </div>
       </div>
       {/* Larger screen layout */}
-      <div className="hidden  md:flex py-10 mb-10">
-        <Image src="/awards.png" alt="" width={200} height={50} />
-        <Image src="/awards2.png" alt="" width={200} height={50} />
-        <Image src="/awards3.png" alt="" width={200} height={50} />
-        <Image src="/awards4.png" alt="" width={200} height={50} />
-        <Image src="/awards5.png" alt="" width={200} height={50} />
-        <Image src="/awards2.png" alt="" width={200} height={50} />
-        <Image src="/awards4.png" alt="" width={200} height={50} />
+      <div className="hidden  md:flex py-8 justify-center">
+        <Image src="/awards.png" alt="" width={150} height={50} />
+        <Image src="/awards2.png" alt="" width={150} height={50} />
+        <Image src="/awards3.png" alt="" width={150} height={50} />
+        <Image src="/awards4.png" alt="" width={150} height={50} />
+        <Image src="/awards5.png" alt="" width={150} height={50} />
+        <Image src="/awards2.png" alt="" width={150} height={50} />
+        <Image src="/awards4.png" alt="" width={150} height={50} />
       </div>
     </div>
   );

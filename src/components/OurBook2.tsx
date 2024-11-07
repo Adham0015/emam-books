@@ -55,6 +55,13 @@ function OurBook2() {
       <div className="hidden relative md:flex md:gap-4 my-16 md:ml-2 xl:ml-12 mx-4 max-h-[731px]">
         <div className="relative w-1/2 ">
           <Image
+            src="/moon.png"
+            alt=""
+            width={100}
+            height={100}
+            className="absolute -top-16 -left-8 z-40"
+          />
+          <Image
             src="/pic1.png"
             alt="Image 1"
             width={150}
@@ -81,6 +88,27 @@ function OurBook2() {
             width={150}
             height={288}
             className="absolute top-32 left-12"
+          />
+          <Image
+            src="/plant.png"
+            alt=""
+            width={150}
+            height={100}
+            className="absolute bottom-12 left-40"
+          />
+          <Image
+            src="/star.png"
+            alt=""
+            width={100}
+            height={100}
+            className="absolute bottom-12 left-0"
+          />
+          <Image
+            src="/star.png"
+            alt=""
+            width={100}
+            height={100}
+            className="absolute md:-top-12 md:right-0 lg:-top-12 lg:right-52"
           />
         </div>
 
